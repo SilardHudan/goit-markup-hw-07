@@ -15,28 +15,33 @@
     <link
         href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&family=Raleway:wght@700&family=Roboto:wght@400;500;700;900&display=swap"
         rel="stylesheet">
-    <link rel="stylesheet" href="./css/styles.css">
+    <!-- <link rel="stylesheet" href="./css/styles.css"> -->
+    <link rel="stylesheet" href="./css/main.css">
     <body>
-        <header class="header">
-            <div class="container">
-                <a class="header-logo link" lang="en" href=""><span class="header-logo-second link" >Web</span>Studio</a>
-                <nav class="header-navgation">
-                    <ul class='first-header-list list'>
-                        <li class="header-item"><a class="header-link-second link" href="./index.html">Студия</a></li>
-                        <li class="header-item"><a class="header-link-first link" href="./portfolio.html">Портфолио</a></li>
-                        <li class="header-item"><a class="header-link-second link" href="">Контакты</a></li>
-                    </ul>
-                </nav>
-                    <ul class='second-header-list list'>
-                        <li><a class="header-mail link" href="mailto:info@devstudio.com"><svg class="contacts-icon" width="16" height="12">
-                                    <use href="./icons/symbol-defs.svg#icon-envelope"></use>
-                                </svg>info@devstudio.com</a></li>
-                        <li><a class="header-tel link" href="tel:+380961111111"><svg class="contacts-icon" width="10" height="16">
-                                    <use href="./icons/symbol-defs.svg#icon-smartphone"></use>
-                                </svg>+38 096 111 11 11</a></li>
-                    </ul>
-            </div>
-        </header>
+    <header class="header">
+        <div class="container">
+            <a class="logo header__logo link" lang="en" href=""><span
+                    class="logo header__logo-second link">Web</span>Studio</a>
+            <nav class="navgation">
+                <ul class='menu-list list'>
+                    <li class="menu-list__item"><a class="menu-list__link-second link" href="./index.html">Студия</a></li>
+                    <li class="menu-list__item"><a class="menu-list__link-first link" href="./portfolio.html">Портфолио</a>
+                    </li>
+                    <li class="menu-list__item"><a class="menu-list__link-second link" href="">Контакты</a></li>
+                </ul>
+            </nav>
+            <ul class='connect header__conect list'>
+                <li><a class="connect__mail link" href="mailto:info@devstudio.com"><svg
+                            class="connect__icon" width="16" height="12">
+                            <use href="./icons/symbol-defs.svg#icon-envelope"></use>
+                        </svg>info@devstudio.com</a></li>
+                <li><a class="connect__tel link" href="tel:+380961111111"><svg class="connect__icon"
+                            width="10" height="16">
+                            <use href="./icons/symbol-defs.svg#icon-smartphone"></use>
+                        </svg>+38 096 111 11 11</a></li>
+            </ul>
+        </div>
+    </header>
     <main class="portfolio-main">
         <section class="portfolio-section">
             <div class="container">
