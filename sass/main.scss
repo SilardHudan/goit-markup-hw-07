@@ -1,8 +1,17 @@
-@import "./utils/vars";
-@import "./componets/header";
-@import "./componets/hero";
-@import "./componets/proposition";
-@import "./componets/product";
-@import "./componets/team";
-@import "./componets/clients";
 @import "./base/reset";
+@import "./utils/vars";
+@import "./utils/hidden";
+
+@import "./components/buttons";
+
+@import "./layout/header";
+@import "./layout/hero";
+@import "./layout/proposition";
+@import "./layout/product";
+@import "./layout/team";
+@import "./layout/clients";
+@import "./layout/footer";
+@import "./layout/modal";
+@import "./layout/portfolio";
+
+
