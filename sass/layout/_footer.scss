@@ -3,26 +3,8 @@
     padding-top: 60px;
     padding-bottom: 60px;
 }
-
-.footer-group__logo {
-    font-family: 'Raleway', Tahoma, sans-serif;
-    font-weight: 700;
-    font-size: 26px;
-    line-height: 1.19;
-    letter-spacing: 0.03em;
-    color: var(--title-color-second)
-}
 .footer-block {
     display: flex;
-}
-
-.footer-group__logo-second {
-    font-family: 'Raleway', Tahoma, sans-serif;
-    font-weight: 700;
-    font-size: 26px;
-    line-height: 1.19;
-    letter-spacing: 0.03em;
-    color: var(--header-color-second)
 }
 .footer-group__address {
     font-style: normal;
@@ -40,18 +22,17 @@
     color: rgba(255, 255, 255, 0.6);
     margin-bottom: 9px;
     transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+    &:hover {
+    color: var(--title-color-second)
+        }
+    
+    &:focus {
+    color: var(--title-color-second)
+        }
 }
 
 .footer-group__mail-item {
     margin-bottom: 9px;
-}
-
-.footer-group__mail-link:hover {
-    color: var(--title-color-second)
-}
-
-.footer-group__mail-link:focus {
-    color: var(--title-color-second)
 }
 
 .footer-group__tel-link {
@@ -60,15 +41,14 @@
     letter-spacing: 0.03em;
     color: rgba(255, 255, 255, 0.6);
     transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
-
-}
-
-.footer-group__tel-link:hover {
+    &:hover {
     color: var(--title-color-second)
-}
-
-.footer-group__tel-link:focus {
+        }
+    
+    &:focus {
     color: var(--title-color-second)
+        }
+
 }
 
 .footer-soclist__text {
@@ -104,24 +84,6 @@
 
 .footer-soclist__icon {
     fill: currentColor;
-}
-
-.soc-icon--dark {
-    background-color: rgba(255, 255, 255, 0.1);
-    color: #FFFFFF;
-    transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1),
-        background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
-
-}
-
-.soc-icon--dark:hover {
-    background-color: #2196F3;
-    color: #FFFFFF;
-}
-
-.soc-icon--dark:focus {
-    background-color: #2196F3;
-    color: #FFFFFF;
 }
 
 .footer-soclist__list {
@@ -174,21 +136,6 @@
     margin-left: 12px;
 }
 
-.footer-input-group__btn {
-    font-weight: 700;
-    font-size: 16px;
-    line-height: 1.88;
-    letter-spacing: 0.06em;
-    color: #FFFFFF;
-    width: 200px;
-    height: 50px;
-    text-align: left;
-    padding-left: 29px;
-    background: #2196F3;
-    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
-    border-radius: 4px;
-    position: relative;
-}
 
 .footer-input-group__icon {
     fill: #FFFFFF;
